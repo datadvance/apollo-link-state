@@ -1,7 +1,7 @@
 {
-  "name": "apollo-link-state",
-  "version": "0.4.1",
-  "description": "An easy way to manage local state with Apollo Link",
+  "name": "@datadvance/apollo-link-state",
+  "version": "0.4.1-1",
+  "description": "A master branch clone of the `apollo-link-state` package",
   "author": "James Baxley <james@meteor.com>",
   "license": "MIT",
   "main": "./lib/bundle.umd.js",
@@ -10,12 +10,12 @@
   "typings": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apollographql/apollo-link-state.git"
+    "url": "git+https://github.com/datadvance/apollo-link-state.git"
   },
   "bugs": {
-    "url": "https://github.com/apollographql/apollo-link-state/issues"
+    "url": "https://github.com/datadvance/apollo-link-state/issues"
   },
-  "homepage": "https://github.com/apollographql/apollo-link-state#readme",
+  "homepage": "https://github.com/datadvance/apollo-link-state.git#readme",
   "scripts": {
     "build:browser":
       "browserify ./lib/bundle.umd.js -o=./lib/bundle.js --i apollo-link --i apollo-utilities --i graphql-anywhere && npm run minify:browser",
@@ -39,7 +39,7 @@
   },
   "bundlesize": [
     {
-      "name": "apollo-link-state",
+      "name": "@datadvance/apollo-link-state",
       "path": "./lib/bundle.min.js",
       "threshold": "1 Kb"
     }
