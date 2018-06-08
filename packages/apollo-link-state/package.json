@@ -44,9 +44,6 @@
       "threshold": "1 Kb"
     }
   ],
-  "peerDependencies": {
-    "apollo-link": "^1.0.0"
-  },
   "devDependencies": {
     "@types/graphql": "0.12.7",
     "@types/jest": "22.1.x",
@@ -82,7 +79,9 @@
   },
   "dependencies": {
     "apollo-utilities": "^1.0.8",
-    "graphql-anywhere": "^4.1.0-alpha.0"
+    "graphql-anywhere": "^4.1.0-alpha.0",
+    "apollo-link": "1.0.7",
+    "apollo-cache": "1.1.9"
   },
   "lint-staged": {
     "*.ts*": [
